@@ -1,55 +1,57 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Daily Journal</title>
-        <link rel="stylesheet" href="./styles/main.css">
-    </head>
 
-    <body>
-        <main id="container">
+<head>
+    <meta charset="utf-8">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
 
-            <h2>Daily Journal</h2>
+<body>
+    <main id="container">
 
-            <form action="">
-                <fieldset>
-                    <!-- Name -->
-                    <label for="entry-first-name">First name: </label>
-                    <input type="text" name="entry-first-name" id="entry-first-name" required><br>
-                    <label for="entry-last-name">Last name: </label>
-                    <input type="text" name="entry-last-name" id="entry-last-name" required><br>
+        <h2>Daily Journal</h2>
 
-                    <!-- Date -->
-                    <label for="entry-date">Entry Date: </label>
-                    <input type="date" name="entry-date" id="entry-date" required><br>
+        <form action="">
+            <fieldset>
+                <!-- Name -->
+                <label for="entry-first-name">First name: </label>
+                <input type="text" name="entry-first-name" id="entry-first-name" required><br>
+                <label for="entry-last-name">Last name: </label>
+                <input type="text" name="entry-last-name" id="entry-last-name" required><br>
 
-                    <!-- Concepts Covered -->
-                    <label for="entry-concepts">Concepts Covered: </label>
-                    <textarea name="entry-concepts" id="entry-concepts" cols="30" rows="3" required></textarea><br>
+                <!-- Date -->
+                <label for="entry-date">Entry Date: </label>
+                <input type="date" name="entry-date" id="entry-date" required><br>
 
-                    <!-- Journal Entry -->
-                    <label for="entry-text">Elaborate here: </label>
-                    <textarea name="entry-text" id="entry-text" cols="30" rows="10" required></textarea><br>
+                <!-- Concepts Covered -->
+                <label for="entry-concepts">Concepts Covered: </label>
+                <textarea name="entry-concepts" id="entry-concepts" cols="30" rows="3" required></textarea><br>
 
-                    <!-- Mood Selector -->
-                    <label for="entry-mood">Please select a mood: </label>
-                    <select name="entry-mood" id="entry-mood" required>
-                        <option value="ecstatic">Ecstatic</option>
-                        <option value="happy">Happy</option>
-                        <option value="content">Content</option>
-                        <option value="sad">Sad</option>
-                        <option value="miserable">Miserable</option>
-                    </select><br>
+                <!-- Journal Entry -->
+                <label for="entry-text">Elaborate here: </label>
+                <textarea name="entry-text" id="entry-text" cols="30" rows="10" required></textarea><br>
 
-                    <!-- Record Button -->
-                    <button type="submit" value="submit">Record Journal Entry</button>
+                <!-- Mood Selector -->
+                <label for="entry-mood">Please select a mood: </label>
+                <select name="entry-mood" id="entry-mood" required>
+                    <option value="ecstatic">Ecstatic</option>
+                    <option value="happy">Happy</option>
+                    <option value="content">Content</option>
+                    <option value="sad">Sad</option>
+                    <option value="miserable">Miserable</option>
+                </select><br>
 
-                </fieldset>
-            </form>
+                <!-- Record Button -->
+                <button type="submit" value="submit">Record Journal Entry</button>
 
-        </main>
+            </fieldset>
+        </form>
 
-        <footer></footer>
-        <script type="module" src="./scripts/main.js"></script>
-    </body>
+    </main>
+
+    <footer></footer>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
 </html>
