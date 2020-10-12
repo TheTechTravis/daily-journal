@@ -10,7 +10,7 @@ export const JournalEntryComponent = (entryObj) => {
 
             <h2>${entryObj.concept}</h2>
             <p>${entryObj.entry}</p>
-            <p>${entryObj[first-name]} ${entryObj[last-name]}</p>
+            <p>${entryObj["first-name"]} ${entryObj["last-name"]}</p>
             <p>${entryObj.date}</p>
         </section>
     `
