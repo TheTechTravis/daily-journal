@@ -8,7 +8,10 @@ export const JournalEntryComponent = (entry) => {
             Display the entry's full text, and the date
             it was entered here.
 
-            
+            <h2>${entry.concept}</h2>
+            <p>${entry.entry}</p>
+            <p>${entry[first-name]} ${entry[last-name]}</p>
+            <p>${entry.date}</p>
         </section>
     `
 }
