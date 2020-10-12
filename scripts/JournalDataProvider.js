@@ -53,12 +53,9 @@ const journal = [
     raw data in the format that you want
 */
 export const useJournalEntries = () => {
-    console.log(journal)
-
-    // This code will be uncommented later when I want to use sortByDate()
-    // const sortedByDate = journal.sort(
-    //     (currentEntry, nextEntry) =>
-    //         Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
-    // )
-    // return sortedByDate
+    const sortedByDate = journal.sort(
+        (currentEntry, nextEntry) =>
+            Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
+    )
+    return sortedByDate
 }
